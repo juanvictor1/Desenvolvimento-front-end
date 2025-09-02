@@ -34,7 +34,8 @@ a{
     text-align: center;
     font-family: fantasy;
     color: #2e7475;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .pad_link_cabe{
@@ -44,4 +45,16 @@ a{
 
 .rodape{
     background-color: #001b17;
+}
+
+img{
+    border-radius: 20px;
+    border: 4px solid #001b17;
+}
+
+.text_apresentacao{
+    color: #001b17;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
 }
