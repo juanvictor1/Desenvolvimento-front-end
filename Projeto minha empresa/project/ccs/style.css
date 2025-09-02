@@ -1,0 +1,29 @@
+.cabecalho{
+    background-color: #001b17;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.titulo{
+    text-align: center;
+    color: #2e7475;  
+}
+
+.link_cabecalho{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+a{
+    color: #2e7475;
+}
+
+.fundo{
+    background-color: #e1ffff;
+}
+
+.apresentacao{
+    font-family: fantasy;
+    color: #001b17;
+    text-align: center;
+}
