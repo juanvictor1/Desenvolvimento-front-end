@@ -12,10 +12,12 @@
 .link_cabecalho{
     text-align: center;
     padding-bottom: 25px;
+    font-family: fantasy;
 }
 
 a{
     color: #2e7475;
+    text-align: center;
 }
 
 .fundo{
@@ -26,4 +28,20 @@ a{
     font-family: fantasy;
     color: #001b17;
     text-align: center;
+}
+
+.text_footer{
+    text-align: center;
+    font-family: fantasy;
+    color: #2e7475;
+    padding-top: 10px;
+}
+
+.pad_link_cabe{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.rodape{
+    background-color: #001b17;
 }
