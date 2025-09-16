@@ -65,9 +65,32 @@ img{
     font-family: serif;
 }
 
+/* Aula 05 - Flexbox e Grid */
+
 .imagem-centro {
     display: flex;
     justify-content: center; 
     align-items: center;     
     margin: 20px 0;          
 }
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 50px; 
+    padding: 30px;
+    justify-items: center;
+}
+
+.produto img {
+    width: 200px; 
+    height: auto;
+    border-radius: 15px;
+    border: 3px solid #001b17;
+    transition: transform 0.3s ease;
+}
+
+.produto img:hover {
+    transform: scale(1.05);
+}
+
