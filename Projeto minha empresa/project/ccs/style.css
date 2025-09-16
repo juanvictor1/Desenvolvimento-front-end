@@ -16,12 +16,10 @@
 }
 
 a{
-    color: #2e7475;
-    text-align: center;
     text-decoration: none;
 }
 
-a:hover{
+.pad_link_cabe:hover{
     color: #47afb1;
 }
 
@@ -46,6 +44,9 @@ a:hover{
 .pad_link_cabe{
     padding-left: 20px;
     padding-right: 20px;
+    color: #2e7475;
+    text-align: center;
+    text-decoration: none;
 }
 
 .rodape{
@@ -77,9 +78,7 @@ img{
 .catalogo {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 50px; 
-    padding: 30px;
-    justify-items: center;
+    padding-left: 100px;
 }
 
 .produto img {
@@ -90,7 +89,23 @@ img{
     transition: transform 0.3s ease;
 }
 
+.produto {
+    padding-bottom: 4px;
+}
+
+.produto-txt {
+    padding-bottom: 30px;
+    text-align: left;
+    color: #001b17;
+    font-family: fantasy;
+}
+
 .produto img:hover {
     transform: scale(1.05);
 }
 
+@media(max-width: 1024px){
+
+
+
+}
