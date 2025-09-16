@@ -64,3 +64,10 @@ img{
     padding-right: 250px;
     font-family: serif;
 }
+
+.imagem-centro {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin: 20px 0;          
+}
